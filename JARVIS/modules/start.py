@@ -12,7 +12,7 @@ START_BUTTON = [
         Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/II_ADI_II")
     ],
     [
-        Button.url("• ʀᴇᴘᴏ •", "https://t.me/+17kAUGJK8E01MDZl")
+        Button.url("• ʀᴇᴘᴏ •", "https://github.com/Adibotkaiaia/AdiX-SPAM")
     ]
 ]
 
