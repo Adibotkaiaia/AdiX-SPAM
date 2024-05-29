@@ -9,7 +9,7 @@ START_BUTTON = [
     ],
     [
         Button.url("• ᴄʜᴀɴɴᴇʟ •", "https://t.me/ll_VIP_SUPPORT_ll/5"),
-        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/II_VIP_CHATTING_ZONE_II")
+        Button.url("• sᴜᴘᴘᴏʀᴛ •", "https://t.me/II_ADI_II")
     ],
     [
         Button.url("• ʀᴇᴘᴏ •", "https://t.me/+17kAUGJK8E01MDZl")
@@ -35,12 +35,12 @@ async def start(event):
         bot_id = ANNIE.id
         TEXT = f"**ʜᴇʏ​ [{event.sender.first_name}](tg://user?id={event.sender.id}),\n\nɪ ᴀᴍ [{bot_name}](tg://user?id={bot_id})​**\n━━━━━━━━━━━━━━━━━━━\n\n"
         TEXT += f"» **ᴍʏ ᴅᴇᴠᴇʟᴏᴘᴇʀ​ : [VIPADI](https://telegra.ph/file/c67ebb7b5c2946e19c68a.jpg)**\n\n"
-        TEXT += f"» **VIPADI V2 :** `M 1.8.31`\n"
+        TEXT += f"» ** VIPADI V2 :** `M 1.8.31`\n"
         TEXT += f"» **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `3.11.3`\n"
         TEXT += f"» **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ :** `{__version__}`\n━━━━━━━━━━━━━━━━━"
         await event.client.send_file(
               event.chat_id,
-                    "https://github.com/Adibotkaiaia/AdiX-SPAM/assets/155803358/f30a5777-9823-45d0-9860-342eceadb774",
+                    "@II_ADI_II",
                     caption=TEXT, 
                     buttons=START_BUTTON
                 )
